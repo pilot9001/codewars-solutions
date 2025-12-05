@@ -1,17 +1,17 @@
 
-// Traditional function
+// // Traditional function
 
-function repeatStr(n, s){
-    return s.repeat(n);
-}
+// function repeatStr(n, s){
+//     return s.repeat(n);
+// }
 
 
-// Same thing using an arrow function
+// // Same thing using an arrow function
 
-let repeatStr = (n, s) => `${s.repeat(n)}`;
+// let repeatStr = (n, s) => `${s.repeat(n)}`;
 
-console.log(repeatStr(6, "I"));  // IIIIII
-console.log(repeatStr(5, "Hello"));  // HelloHelloHelloHelloHello
+// console.log(repeatStr(6, "I"));  // IIIIII
+// console.log(repeatStr(5, "Hello"));  // HelloHelloHelloHelloHello
 
 
 
