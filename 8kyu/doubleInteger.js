@@ -6,7 +6,7 @@ function doubleInteger(i){
 }
 
 
-// Arrow Function Version
+// Arrow Function Version.
 const doubleInteger = i => i * 2;
 
 console.log(doubleInteger(3)); //6
