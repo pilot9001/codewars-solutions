@@ -1,6 +1,10 @@
-function booleanToString(b){
-    return b.toString();
-}
+// function booleanToString(b){
+//     return b.toString();
+// }
 
-console.log(typeof booleanToString(true));
-console.log(typeof booleanToString(false));
+
+function booleanToString(b){
+  return b ? 'true' : 'false';
+}
+console.log(booleanToString(true));
+console.log(booleanToString(false));
