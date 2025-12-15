@@ -6,5 +6,14 @@ function simpleMultiplication(number){
     }
 }
 
-console.log(simpleMultiplication(5, 8, 9, 1));
+
+// Ternary operator
+
+function simpleMultiplication(number){
+    return (number % 2 == 0)? number * 8 : number * 9;
+}
+console.log(simpleMultiplication(5));
+console.log(simpleMultiplication(9));
+console.log(simpleMultiplication(8));
+console.log(simpleMultiplication(3));
 
