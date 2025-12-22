@@ -9,4 +9,6 @@ function positiveSum(arr){
     return sum;
 }
 
-
+console.log(positiveSum([1, -4, 7, 12])); // 20
+console.log(positiveSum([-1, -2, -3]));   // 0
+console.log(positiveSum([]));             // 0
