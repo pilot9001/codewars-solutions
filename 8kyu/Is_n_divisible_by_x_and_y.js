@@ -9,3 +9,6 @@ function isDivisible(n, x, y) {
   }
 }
 console.log(result1)
+
+
+//////////
